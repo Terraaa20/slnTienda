@@ -7,7 +7,8 @@ namespace CapaCliente
 {
     public partial class Productos : System.Web.UI.Page
     {
-        string cadenaConexion = "server=Terry\\SQLTERRY;Database=TiendaDB;Integrated Security=true";
+        //string cadenaConexion = "server=Terry\\SQLTERRY;Database=TiendaDB;Integrated Security=true";
+        string cadenaConexion = "workstation id=TiendaDB12.mssql.somee.com;packet size=4096;user id=terryuwu_SQLLogin_1;pwd=zvhja1q6lj;data source=TiendaDB12.mssql.somee.com;persist security info=False;initial catalog=TiendaDB12;TrustServerCertificate=True";
 
         protected void Page_Load(object sender, EventArgs e)
         {
